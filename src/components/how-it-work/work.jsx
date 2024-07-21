@@ -13,7 +13,7 @@ const Work = () => {
         </div>
         <div className="work-detail">
           <h4>
-          Select your meals online, place your order, and make a secure payment.{<br/>} Our chefs prepare your food fresh, and our delivery team ensures it{<br/>} reaches your doorstep quickly and hot.
+          Select your meals online, place your order, and make a secure payment.<br/> Our chefs prepare your food fresh, and our delivery team ensures it<br/> reaches your doorstep quickly and hot.
           </h4>
         </div>
       </div>

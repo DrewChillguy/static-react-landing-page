@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import orangeBg from "../../assets/about-background.png";
 import salad from "../../assets/about-background-image.png";
-import play from "../../assets/Vector.png";
+import play from "../../assets/play.png";
 
 const About = () => {
   return (
@@ -10,13 +10,11 @@ const About = () => {
       <div className="about">
         <img src={salad} className="veggies" />
         <div className="about-detail">
-          <h1>
-            Food Is An Important {<br />}Part Of A Balanced{<br />} Diet
-          </h1>
+          <h1>Food Is An Important Part Of A Balanced Diet</h1>
           <h4>
-            Vegetables, fruits, proteins, and sometimes grains. {<br />}Commonly
-            dressed with vinaigrettes or creamy dressings, {<br />}salads can be
-            served cold or warm.
+            Vegetables, fruits, proteins, and sometimes grains. Commonly dressed
+            with vinaigrettes or creamy dressings, salads can be served cold or
+            warm.
           </h4>
           <h4>
             Feel free to explore and ask questions. Let's make your experience
