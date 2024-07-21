@@ -1,0 +1,66 @@
+.about-section {
+  margin-top: 200px;
+  position: relative;
+}
+.orange-bg {
+  z-index: -100;
+  position: absolute;
+  top: -190px;
+}
+.veggies {
+  transform: translate(50px, -50px);
+}
+.about {
+  display: flex;
+  align-items: start;
+  padding-right: 10%;
+}
+.about-detail {
+  margin-left: 5%;
+}
+.about-detail h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--title-color);
+  padding-left: 5%;
+  margin-bottom: 20px;
+}
+.about-detail h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--sub-title-color);
+  padding-left: 5%;
+  margin-bottom: 30px;
+}
+.about-section button {
+  margin-top: -30px;
+}
+.learn-more {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  transition: 0.5s;
+  padding: 30px 70px;
+  margin-left: 5%;
+}
+.learn-more:hover {
+  background-color: chocolate;
+}
+.play {
+  border: none;
+  background: transparent;
+  position: relative;
+  top: 60px;
+  left: 50px;
+}
+.watch {
+  position: relative;
+  left: 140px;
+  top: -60px;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 600;
+}

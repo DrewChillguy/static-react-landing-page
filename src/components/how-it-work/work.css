@@ -1,0 +1,51 @@
+.how-it-work {
+  margin-top: 10%;
+  margin-bottom: 30px;
+}
+.work-section {
+  text-align: center;
+}
+.work-section h1 {
+  color: var(--title-color);
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.work-section h4 {
+  color: #828282;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-top: 30px;
+  margin-bottom: 5%;
+}
+.cards-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+.card {
+    background-color: white;
+    padding: 50px 0;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    height: 120px;
+}
+.card:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+  box-shadow: #505050;
+}
+.card h3{
+    color: #505050;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 20px;
+}

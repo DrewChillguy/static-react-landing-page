@@ -1,0 +1,55 @@
+:root {
+  --title-color: #4c4c4c;
+  --sub-title-color: #828282;
+}
+.banner-section {
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+}
+.orangeBg {
+  position: absolute;
+  top: -250px;
+  right: 0;
+  z-index: -10;
+}
+.banner h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--title-color);
+  margin-bottom: 30px;
+}
+.banner h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--sub-title-color);
+  margin-bottom: 30px;
+}
+.salad {
+  width: 720px;
+  height: 720px;
+  transform: translate(-120px, 20px);
+}
+.order-now {
+  padding: 15px 55px 18px 45px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  transition: 0.5s;
+}
+.order-now:hover {
+  background-color: chocolate;
+}
+.arrow {
+  position: relative;
+  top: 5px;
+  left: 17px;
+}

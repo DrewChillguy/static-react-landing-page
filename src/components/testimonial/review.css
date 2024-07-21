@@ -1,0 +1,47 @@
+.review {
+  margin: 10% auto;
+}
+.review-section {
+  text-align: center;
+}
+.review h1 {
+  color: var(--title-color);
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.review h4 {
+  color: var(--sub-title-color);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.customer {
+  background-color: white;
+  width: 50%;
+  margin: 10px auto;
+  padding: 30px 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.lizar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.customer h4 {
+  line-height: 1.5;
+  font-weight: 500;
+}
+.star {
+  width: 33.33px;
+  height: 31.67px;
+  margin: 0 5px;
+}
+.customer h3 {
+  margin-top: 20px;
+  color: #1c1c1c;
+  font-weight: 600;
+}
